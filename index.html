@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Simple Tree Menu Example</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery-simpleTreeMenu.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="jquery-simpleTreeMenu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+    <div class="container"><div class="row"><div class="col-md-12">
+
+    <h1>Simple Tree Menu Examples</h1>
+
+    <div style="width:400px; background-color: white" class="well">
+
+        <ul id="demoTree">
+            <li>
+                <span class="stm-icon"></span>
+                <a class="stm-content" href="/html/stm/index.html">Back to Simple Tree Menu</a></span>
+            </li>
+            <li>
+                <span class="stm-icon"></span>
+                <span class="stm-content">News Sites</span>
+                <ul>
+                    <li>
+                        <span class="stm-icon"></span>
+                        <a class="stm-content" href="http://news.bbc.co.uk">BBC News</a>
+                    </li>
+                    <li>
+                        <span class="stm-icon"></span>
+                        <a href="http://www.theguardian.com" class="stm-content">This link to The Guardian is also a node</a>
+                        <ul>
+                            <li>
+                                <span class="stm-icon"></span>
+                                <a class="stm-content" href="http://www.theguardian.com/uk/sport">UK Sport</a>
+                            </li>
+                            <li>
+                                <span class="stm-icon"></span>
+                                <a class="stm-content" href="http://www.theguardian.com/uk/business">UK Business</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span class="stm-icon"></span>
+                <span class="stm-content">Embedded Content</span>
+                <ul>
+                    <li>
+                        <span class="stm-icon"></span>
+                        <span class="stm-content">Your Calendar</span>
+                        <div style="background-color: #A0C050; height: 50px; padding: 10px; border: 2px solid #604030">
+                            (calendar here)
+                        </div>
+                    </li>
+                    <li>
+                        <span class="stm-icon"></span>
+                        <span class="stm-content">An image</span>
+                        <br />
+                        <img src="http://placehold.it/100x100" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    </div></div></div>
+
+</body>
+
+<script type="text/javascript">
+    $('#demoTree').simpleTreeMenu();
+</script>
+
+</html>
