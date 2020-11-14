@@ -6,6 +6,3 @@
 
 ### BigBoard en staging
 [Link de entrada](http://167.86.120.98:4201/)
-
-
-### Sb_Noticias
