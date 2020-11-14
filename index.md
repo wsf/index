@@ -11,4 +11,4 @@
 
 [Link de entrada](http://167.86.120.98:5005/sb_ig_sonda2/)
 
-.
+>Nota: puede estar inestable, por ahora
